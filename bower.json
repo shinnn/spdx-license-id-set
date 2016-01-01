@@ -1,0 +1,39 @@
+{
+  "name": "spdx-license-id-set",
+  "description": "A set of SPDX license identifiers",
+  "keywords": [
+    "spdx",
+    "license",
+    "licenses",
+    "id",
+    "ids",
+    "identifier",
+    "identifiers",
+    "list",
+    "iterable",
+    "set",
+    "oss"
+  ],
+  "main": "browser.js",
+  "moduleType": "globals",
+  "homepage": "https://github.com/shinnn/spdx-license-id-set",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/spdx-license-id-set.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "dependencies": {
+    "spdx-license-ids": "~1.1.0"
+  },
+  "license": "Unlicense",
+  "ignore": [
+    "**/.*",
+    "*.json",
+    "*.js",
+    "bower_components",
+    "coverage",
+    "node_modules"
+  ]
+}

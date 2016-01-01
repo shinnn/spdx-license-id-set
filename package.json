@@ -1,0 +1,42 @@
+{
+  "name": "spdx-license-id-set",
+  "version": "1.0.0",
+  "description": "A set of SPDX license identifiers",
+  "repository": "shinnn/spdx-license-id-set",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --config @shinnn browser.js index.js test.js && bower install",
+    "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js",
+    "coverage": "node --strong_mode node_modules/.bin/istanbul cover test.js"
+  },
+  "license": "Unlicense",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "spdx",
+    "license",
+    "licenses",
+    "id",
+    "ids",
+    "identifier",
+    "identifiers",
+    "list",
+    "iterable",
+    "set",
+    "oss",
+    "browser",
+    "client-side"
+  ],
+  "dependencies": {
+    "spdx-license-ids": "^1.1.0"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config": "^1.4.0",
+    "bower": "^1.7.2",
+    "eslint": "^1.10.3",
+    "istanbul": "^0.4.1",
+    "require-bower-files": "^3.0.0",
+    "tape": "^4.4.0"
+  }
+}
