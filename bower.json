@@ -25,7 +25,7 @@
     "Shinnosuke Watanabe (https://github.com/shinnn)"
   ],
   "dependencies": {
-    "spdx-license-ids": "~1.1.0"
+    "spdx-license-ids": "~1.2.0"
   },
   "license": "Unlicense",
   "ignore": [
