@@ -1,6 +1,6 @@
 {
   "name": "spdx-license-id-set",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of SPDX license identifiers",
   "repository": "shinnn/spdx-license-id-set",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
